@@ -23,7 +23,7 @@ const httpServer = createServer(app)
 import { Server } from 'socket.io'
 import { Message } from './server/database/mongoose'
 import { IMessageSchema } from './server/services'
-const io = new Server(httpServer, {cors: {origin: 'http://localhost:8080'}})
+const io = new Server(httpServer, {cors: {origin: 'https://frontend-devs-web.vercel.app'}})
 type TData = {
         message: string,
         by: string,
