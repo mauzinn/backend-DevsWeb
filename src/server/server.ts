@@ -9,7 +9,7 @@ import cors from 'cors'
         server.use(express.json())
 
     //Cors
-        server.use(cors({origin: 'http://localhost:8080'}))
+        server.use(cors({origin: 'https://frontend-devs-web.vercel.app'}))
 
 
 
